@@ -1,0 +1,55 @@
+#map{
+ 
+display: block;
+min-width: 100px;
+min-height:100px;
+
+}
+
+.title{
+    vertical-align: top;
+    border: .1px solid rgba(0, 0, 0, 0.099);
+    display: inline-block;
+    width: 32px;
+    height:32px;
+    position: relative;
+}
+
+.town{
+    vertical-align: top;
+    display: inline-block;
+    width: 32px;
+    height:32px;
+    position: relative;
+    background: url(town.png);
+    background-size: contain;
+}
+
+.hero{
+    background: red;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    margin:auto;
+	margin-top:5px;
+    border-radius: 50%;
+}
+
+.title.brown{
+    background: brown;
+
+    background: url(3.png);
+}
+
+
+.title.green{
+    background: green;
+    background: url(1.png);
+}
+
+
+.title.blue{
+    background: blue;
+    background: url(2.png);
+}
